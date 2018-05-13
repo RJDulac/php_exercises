@@ -1,0 +1,24 @@
+<?php 
+	echo "hello student";
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="demo">
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">home</a></li>
+			<li><a href="">home</a></li>
+			<li><a href="">home</a></li>
+			<li><a href="">home</a></li>
+		</ul>
+	</div>
+	
+</body>
+</html>
