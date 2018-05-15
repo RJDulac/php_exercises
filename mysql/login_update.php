@@ -1,13 +1,16 @@
-<?php include "db.php";
+<?php 
+
+include "db.php";
+include "functions.php";
 
 	 
 
-	$query = "SELECT * FROM users";
-	$result = mysqli_query($connection, $query);
+	// $query = "SELECT * FROM users";
+	// $result = mysqli_query($connection, $query);
 
-	if(!$result) {
-		die('Query FAILED!' . mysqli_error());
-	}
+	// if(!$result) {
+	// 	die('Query FAILED!' . mysqli_error());
+	// }
 
 
 
@@ -42,8 +45,22 @@
 				</div>
 
 				<div class="form-group">
-					<select name="" id="">
-						<option value="">1</option>
+					<select name="id" id="">
+
+
+						<?php
+						// while($row = mysqli_fetch_assoc($result)) {
+						// 	$id = $row['id'];
+
+						// 	echo "<option value='$id'>$id</option>";
+
+
+						// }
+
+						showAllData();
+
+						?>
+						<!--  -->
 					</select>
 				</div>
 
