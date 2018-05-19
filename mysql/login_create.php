@@ -1,4 +1,4 @@
-<?php
+<?php include "db.php";
 
 if(isset($_POST['submit'])) {
 
@@ -18,15 +18,15 @@ if(isset($_POST['submit'])) {
 
 	// echo $username . " " . $password;
 
-	$connection = mysqli_connect('localhost', 'root', '', 'loginapp');
+	// $connection = mysqli_connect('localhost', 'root', '', 'loginapp');
 
-	// if($connection) {
-	// 	echo "we are connected";
-	// } else {
-	// 	die("Database connection failed");
-	// }
+	// // if($connection) {
+	// // 	echo "we are connected";
+	// // } else {
+	// // 	die("Database connection failed");
+	// // }
 
-	echo $x = ($connection) ? "We are connected" : die("Database connection failed!"); 
+	// echo $x = ($connection) ? "We are connected" : die("Database connection failed!"); 
 
 	$query = "INSERT INTO users(username, password)";
 	
