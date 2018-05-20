@@ -1,6 +1,7 @@
 <?php 
 include "db.php";
 include "functions.php";
+include "includes/header.php";
 
 
 updateTable();
@@ -70,5 +71,8 @@ updateTable();
 
 	</div>
 	
-</body>
-</html>
+<?php
+
+include "includes/footer.php";
+
+?>
